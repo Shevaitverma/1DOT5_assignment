@@ -1,6 +1,10 @@
 # 1DOT5_assignment
+Build a web app using ISRO stats API
+#### Objective: Design and implement a web app using ISRO Stats RESTful API to display ISRO launches data.
+#### Bonus(optional):
+Allow users to perform basic CRUD operations (Create, Read, Update, Delete) their favourite ISRO launches list.
 
-### To run the application 
+## To run the application 
 `cd client` to move into the client directory 
 use `npm install` to install required dependencies 
 
