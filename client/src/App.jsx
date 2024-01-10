@@ -1,7 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LaunchList from './components/LaunchList';
-import LaunchDetails from './components/LaunchDetails';
+import Launch from './components/Launch';
 
 function App() {
 
@@ -9,8 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route >
-          <Route path="/" element={<LaunchList />} />
-          <Route path="/details" element={<LaunchDetails />} />
+          <Route path="/" element={<Launch />} />
         </Route>
       </Routes>
     </BrowserRouter>
